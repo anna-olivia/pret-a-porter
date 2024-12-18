@@ -1,0 +1,42 @@
+.wrapper {
+    margin-top: -150px;
+    height:  600px;
+    background-color: #ffffff;
+    padding: 200px 120px; 
+    color: #804Ea3;   
+}
+
+/* .wrapper .icon {
+    font-size: 120px;;
+} */
+
+.wrapper h2 {
+font-size: 120px; 
+}
+
+.author {
+/* margin-top: 150px; */
+font-size: 30px;
+}
+
+.links {
+    /* color: #804Ea3; */
+    text-align: right;
+}
+
+.links a {
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.links a:active {
+    color: black;
+
+}
+
+.links a:visited {
+    color: var(--background)
+}
+.links a:hover {
+    color: var(--secondary);
+}

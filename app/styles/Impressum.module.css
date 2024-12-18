@@ -1,0 +1,42 @@
+
+
+.impressum {    
+    background-color: var(--secondary);
+    display: flex;
+    font-size: 30px;
+    line-height: 52px;
+    padding: 60px 120px;
+    gap: 40px;
+}
+/* 
+.impressum > div:nth-of-type(1) {
+    border: 1px solid green;
+    margin-top: 15%;
+} */
+
+.impressum h2 {
+    color: #804ea3;
+    margin-top: 15%;
+
+}
+
+.impressum address {
+    font-style: normal;
+}
+
+.impressum+footer {
+    background-color: white;
+   display: block;
+   height: 600px;
+}
+
+.impressum+footer h2 {
+/* height: 360px; */
+   font-size: 120px;
+   line-height: 180px;
+}
+
+
+
+
+

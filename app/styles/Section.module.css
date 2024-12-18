@@ -1,0 +1,62 @@
+.section {
+  height: 571px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 20px 30px;
+  padding: 60px 120px;
+
+  position: relative;
+  overflow: hidden; /* Damit der Layer nicht über die Section hinausragt */
+  height: 571px; /* Beispielhöhe */
+  background-color: transparent;
+  /* margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ddd; */
+}
+
+.section > h2 {
+  /* border: 1px solid red; */
+  height: 200px;
+  text-align: right;
+  /* padding-top: 5%; */
+  font-size: 120px;
+  line-height: 130px;
+  grid-column: 1/13;
+  grid-row: 2/3;
+
+  /* z-index: 10; /* Überschrift bleibt über dem Layer */
+  /*position: relative; */
+}
+
+.info {
+  position: absolute;
+  top: 0;
+  right: -100%; /* Startet außerhalb des sichtbaren Bereichs */
+  width: 100%; /* Layer nimmt gesamte Breite ein */
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* Dunkler Layer mit Transparenz */
+  transition: transform 0.7s ease-in-out; /* Langsame Animation */
+  transform: translateX(100%); /* Startposition: Rechts außerhalb */
+}
+
+.infoVisible {
+  transform: translateX(
+    -100%
+  ); /* Layer wird sichtbar, indem er nach links gleitet */
+}
+.info > p {
+  /* border: 2px solid green; */
+  width: 80%;
+  font-size: 30px;
+  margin-top: 10%;
+  margin-left: 20%;
+}
+
+.info > p > a > span {
+  
+  color: #804ea3;
+  text-decoration: underline;
+}

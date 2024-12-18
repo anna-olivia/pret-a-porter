@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: moul;
+  src: url(../public/assets/fonts/Moul/Moul-Regular.ttf);
+}
+
+@font-face {
+  font-family: ropa;
+  src: url(../public/assets/fonts/Ropa_Sans/RopaSans-Regular.ttf);
+}
+
+:root {
+ --background: #4e9ba3;
+  --foreground: #ffffff; 
+  --secondary: #e99e96;
+  --tertiary: #804ea3;
+  --heading: moul;
+  --paragraph: ropa;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: ropa, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  font-family: ropa, sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: moul, serif;
+}
+

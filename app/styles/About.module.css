@@ -1,0 +1,41 @@
+
+
+.about {
+    display: flex;
+   background-color: var(--secondary);
+
+}
+.about .icon {
+    position: absolute;
+    top: 0;
+    margin: 30px 80px;
+    font-size: 120px;
+    cursor: pointer;
+}
+
+
+.about .text {
+    /* border: 2px solid green; */
+    margin: 60px 120px;
+    padding-top: 80px;
+    line-height: 52px;
+    font-size: 30px;;
+}
+
+.about > .text > span {
+    color: var(--tertiary);
+}
+
+.about > figure {
+    /* border: 2px solid green; */
+    width: 210%;
+}
+
+
+.about img {
+    height: 100vh;
+    object-fit:cover;
+    filter: grayscale(100%);
+
+}    
+
