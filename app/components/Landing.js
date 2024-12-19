@@ -1,7 +1,7 @@
 import Draw from "../animation/Draw";
 import styles from "../styles/Landing.module.css";
-import Box from "./Box";
-import { RiFontSize, RiScrollToBottomLine } from "react-icons/ri";
+import Box from "../animation/Box";
+
 
 const Landing = () => {
   return (

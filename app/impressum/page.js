@@ -1,17 +1,16 @@
 import Link from "next/link";
-import Icon from "../components/Icon";
+
 import styles from "../styles/Impressum.module.css";
 import Footer from "../components/Footer";
-
+import { IoArrowBack } from "react-icons/io5";
 
 const Impressum = () => {
   return (
     <>
       <div className={`glass ${styles.impressum}`}>
-        <Link href="/">
-        <Icon/>
-        </Link>
+      
         <div>
+      
           <h2>Impressum</h2>
           <address>
             <p>
@@ -32,6 +31,10 @@ const Impressum = () => {
             Daten werden nur zu technischen Zwecken genutzt und nicht mit
             anderen Datenquellen zusammengeführt.
           </p>
+          <br/>
+          <Link href="/">
+          <IoArrowBack className={styles.link} />back home
+        </Link>
         </div>
         <div>
           <h2>Urheberrechte</h2>
@@ -61,10 +64,12 @@ const Impressum = () => {
             Diese Website verwendet Schriftarten, die lokal eingebunden wurden.
             Es werden keine Daten an Dritte weitergegeben.
           </p>
+
         </div>
-      </div>
       
-  <Footer/>
+      </div>
+
+      <Footer />
     </>
   );
 };

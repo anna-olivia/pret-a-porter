@@ -1,18 +1,25 @@
 import styles from "../styles/Footer.module.css";
 import Link from "next/link";
+import { PiMouseScrollThin } from "react-icons/pi";
 
 const Footer = () => {
   return (
     <footer className={`glass ${styles.wrapper}`}>
-     
-      <h2>contact me </h2>
+     <PiMouseScrollThin className={styles.icon}/>
+      <h1>contact me </h1>
       <div className={styles.links}>
+      <Link href="/about">about </Link>
+      <br/>
+      {/* <Link href="/projects" >
+              projects
+              </Link>
+              <br/> */}
         <a
           href="https://github.com/anna-olivia"
           target="_blank"
           rel="noopener noreferrer"
         >
-          github
+          github 
         </a>
         <br />
         <a
@@ -20,10 +27,11 @@ const Footer = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          linkedin
+          linkedin 
         </a>
         <br/>
-        <Link href="/impressum">impressum</Link>
+       
+        <Link href="/impressum">impressum </Link>
       </div>
       <p className={styles.author}>
         ./code and ./design © {new Date().getFullYear()}    – anna-olivia lebert-wietholtz

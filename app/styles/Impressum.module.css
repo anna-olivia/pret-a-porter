@@ -1,22 +1,29 @@
-
-
 .impressum {    
-    background-color: var(--secondary);
+    background-color: rgba(0,0,0,0.6);
+    height: 100vh;
     display: flex;
-    font-size: 30px;
-    line-height: 52px;
+    font-size: 20px;
     padding: 60px 120px;
     gap: 40px;
 }
-/* 
-.impressum > div:nth-of-type(1) {
-    border: 1px solid green;
-    margin-top: 15%;
-} */
+
+.impressum .link {
+
+    color: var(--secondary);
+    display: inline;
+    font-size: 2em;
+    transform: translatex(-5px);
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .impressum .link:hover {
+    transform: translatex(-10px);
+  }
 
 .impressum h2 {
-    color: #804ea3;
-    margin-top: 15%;
+    color: var(--secondary);
+    /* margin-top: 5%; */
+    padding-top: 2%;
 
 }
 
@@ -24,17 +31,8 @@
     font-style: normal;
 }
 
-.impressum+footer {
-    background-color: white;
-   display: block;
-   height: 600px;
-}
 
-.impressum+footer h2 {
-/* height: 360px; */
-   font-size: 120px;
-   line-height: 180px;
-}
+
 
 
 

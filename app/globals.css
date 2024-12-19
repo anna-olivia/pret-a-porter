@@ -32,7 +32,6 @@ body {
 
 body {
   color: var(--foreground);
-  background: var(--background);
   font-family: ropa, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -55,4 +54,10 @@ a {
 h1,h2,h3,h4,h5,h6 {
   font-family: moul, serif;
 }
+
+h1 {
+  font-size: 120px;
+}
+
+
 

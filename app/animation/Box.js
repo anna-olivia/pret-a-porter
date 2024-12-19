@@ -11,7 +11,7 @@ const Box = () => {
                 opacity: 1, scale: 1,
             }}
             transition={{
-                delay: 4,
+                delay: 3.5,
                 duration: 2,
                 ease: "easeInOut",
                 
