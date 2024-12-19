@@ -78,6 +78,7 @@ const About = () => {
                 experimenting with digital illustrations and animations or
                 creating giant paintings on flattened cardboard boxes.
               </p>
+              <br/>
               <Link href="/projects">
                 <IoArrowForward className={styles.link} />
                 see projects
