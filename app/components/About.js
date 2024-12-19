@@ -33,7 +33,7 @@ const About = () => {
         <div className={`glass ${styles.about}`}>
           <IoClose onClick={handleClick} className={styles.icon} />
           <h1>
-            What About <br /> Anna?
+            What About Anna?
           </h1>
           <div className={styles.text}>
             <div>

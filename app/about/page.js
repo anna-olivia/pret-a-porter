@@ -10,7 +10,7 @@ const About = () => {
       <div className={`glass ${styles.about}`}>
         
         <h1>
-          What About <br /> Anna?
+          What About Anna?
         </h1>
         <div className={styles.text}>
             <div>

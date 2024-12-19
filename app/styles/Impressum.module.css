@@ -41,7 +41,7 @@
    
     display: flex;
     font-size: 20px;
-    padding: 60px 120px;
+    padding: 60px 120px 80px;
     gap: 40px;
 }
 .impressum .back {
@@ -67,10 +67,7 @@
 
 }
 
-
-
 }
-
 
 
 
