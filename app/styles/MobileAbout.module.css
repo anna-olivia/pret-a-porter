@@ -1,0 +1,44 @@
+.about {
+  background-color: rgba(0, 0, 0, 1);
+}
+
+.about .back {
+  color: var(--secondary);
+  font-size: 2em;
+}
+
+.about .text {
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: justify;
+    padding: 2em 5% ;
+    /* margin-top: -6em; */
+    
+}
+
+.about h1 {
+    color: var(--secondary);
+    font-size: 1.5em;
+}
+
+
+
+.about img {
+    position: absolute;
+    top: 0;
+    height: 900px;
+    width: 100vw;
+    object-fit: cover;
+    filter: grayscale(100%);
+    z-index: -100;
+  }
+
+  .about .link {
+    color: var(--secondary);
+    display: inline;
+    font-size: 2em;
+    transform: translatex(-5px);
+    
+  }
+
+  
+  

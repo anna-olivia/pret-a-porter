@@ -3,7 +3,8 @@
   top: 0;
   left: 0;
   width: 100vw;
-  height: 770px;
+  height: 100vh;
+  /* height: 770px; */
   background-color: rgba(0, 0, 0, 0.6);
   z-index: -10;
   overflow: hidden;
@@ -51,6 +52,7 @@
   color: var(--secondary);
   /* font-family: moul, serif;
   font-size: 120px; */
+  font-size: 6em;
   text-transform: uppercase;
   position: absolute;
   top: 90px;

@@ -10,10 +10,6 @@ const Footer = () => {
       <div className={styles.links}>
       <Link href="/about">about </Link>
       <br/>
-      {/* <Link href="/projects" >
-              projects
-              </Link>
-              <br/> */}
         <a
           href="https://github.com/anna-olivia"
           target="_blank"
@@ -33,7 +29,7 @@ const Footer = () => {
        
         <Link href="/impressum">impressum </Link>
       </div>
-      <p className={styles.author}>
+      <p className={styles.author}> 
         ./code and ./design © {new Date().getFullYear()}    – anna-olivia lebert-wietholtz
       </p>
       

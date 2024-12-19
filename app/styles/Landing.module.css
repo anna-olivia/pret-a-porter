@@ -1,20 +1,21 @@
+
+
+
 .backdrop {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100vh;
-
-
 }
 
 .landing {
   background: rgba(0,0,0,0.6);
   height: 100vh;
   width: 100vw;
-  padding: 60px 120px;
-position: relative;
-overflow-x: hidden;
+  padding: 5% 2.5%;
+  position: relative;
+  overflow-x: hidden;
  
 } 
 
