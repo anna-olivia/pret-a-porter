@@ -33,6 +33,7 @@ cursor: pointer;
     right: 0;
     padding: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
    
   }
   
@@ -53,7 +54,7 @@ cursor: pointer;
   
   .inhalt ul li {
     padding: 10px;
-    text-align: center;
+    text-align: left;
    
   }
   
