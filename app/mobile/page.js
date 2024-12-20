@@ -12,7 +12,7 @@ const About = () => {
           <IoClose  />
         </Link>
     
-        <figure>
+        {/* <figure>
           <Image
             src="/assets/pics/IMG_5883.jpeg"
             alt="me"
@@ -21,7 +21,7 @@ const About = () => {
             height={900}
             priority
           />
-        </figure>
+        </figure> */}
         <div className={styles.text}>
         <h1>
           What About Anna?
