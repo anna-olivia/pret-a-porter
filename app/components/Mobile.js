@@ -4,7 +4,7 @@ import styles from '../styles/Mobile.module.css';
 import Link from 'next/link';
 import { IoMenuOutline,IoClose } from "react-icons/io5";
 import Draw from '../animation/Draw';
-import Footer from './Footer';
+
 
 export default function Mobile() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -64,14 +64,9 @@ export default function Mobile() {
       </nav>
      <Draw/>
     <span>web</span>
+    <footer>
     <p>For better user experience  visit Site on a larger device</p>
     <div className={styles.links}>
-      <Link href="/about">about </Link>
-      <br/>
-      {/* <Link href="/projects" >
-              projects
-              </Link>
-              <br/> */}
         <a
           href="https://github.com/anna-olivia"
           target="_blank"
@@ -94,7 +89,7 @@ export default function Mobile() {
       <p className={styles.author}>
         ./code and ./design © {new Date().getFullYear()}    – anna-olivia lebert-wietholtz
       </p>
-      
+      </footer>
     </div>
   )
 }
