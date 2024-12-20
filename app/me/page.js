@@ -17,7 +17,7 @@ return (
           />
         </figure> 
         <Link href="/mobile" className={styles.link}><IoArrowBack   />
-           <span>go back</span>
+           
         
 
               </Link>
