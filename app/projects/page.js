@@ -1,24 +1,36 @@
 import Link from "next/link";
 import styles from '../styles/Projects.module.css';
-import { IoArrowForward } from "react-icons/io5";
+import { IoArrowBack } from "react-icons/io5";
 
 const Projects = ()=> {
+const links = [
+    "https://github.com/anna-olivia",
+    "https://github.com/anna-olivia?tab=repositories",
+    "https://github.com/anna-olivia?tab=repositories",
+
+]
+
+
     return (
         <div className={styles.projects}>
-        <h1>Under Construction ...</h1>
-        <Link href="/" ><IoArrowForward className={styles.link} />
-              back home
+        <Link href="/" ><IoArrowBack className={styles.link} />
               </Link>
-              <a
-          href="https://github.com/anna-olivia"
+
+              <div className={styles.gallery}>
+          {links.map((link, index) => 
+          (<a
+          href={link}
+          key={index}
           target="_blank"
           rel="noopener noreferrer"
-        >or visit  
-         <span>github
-        </span>
-           
+        >
+            <div className={styles.project}></div>
         </a>
-        <br />
+      )    )
+    }
+              </div>
+          
+     
               
         </div>
     )

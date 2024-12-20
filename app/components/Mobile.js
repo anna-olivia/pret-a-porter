@@ -32,6 +32,11 @@ export default function Mobile() {
                 </Link>
             </li>
             <li>
+                <Link href="/projects">
+                projects
+                </Link>
+            </li>
+            <li>
         <a
           href="https://github.com/anna-olivia"
           target="_blank"
