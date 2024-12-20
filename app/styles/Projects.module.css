@@ -1,33 +1,27 @@
 .projects {
     width: 100vw;
-    height: 100vh;
-    background-color: rgba(0,0,0,0.6);
+    background-color: rgba(0,0,0,1);
+  
 
 }
 
-.projects h1 {
-
-width: 80%;
-margin: auto;
-    color: var(--secondary);
-    font-size: 6em;
-    line-height: 1em;
-    padding-top: 15%;
+.projects .gallery {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+gap: 5rem;
 }
 
-.projects a {
-    display: block;
-    width: 80%;
-    margin: auto;
-    font-size: 20px;
-    /* border: 1px solid green; */
+.projects .project {
+    background-color: var(--secondary);
+    width: 250px;
+    height: 250px;
 }
 .projects .link {
     color: var(--secondary);
     display: inline;
     font-size: 2em;
-    transform: translatex(-5px);
-    transition: transform 0.5s ease-in-out; 
+  margin: 2%;
 }
 
 .projects .link:hover {
@@ -35,8 +29,3 @@ margin: auto;
 
 }
 
-.projects span {
-    padding: 5px;
-    color: var(--secondary);
-    text-decoration: underline;
-}

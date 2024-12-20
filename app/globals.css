@@ -31,6 +31,7 @@ body {
 }
 
 body {
+  background-color: black;
   color: var(--foreground);
   font-family: ropa, sans-serif;
   -webkit-font-smoothing: antialiased;
