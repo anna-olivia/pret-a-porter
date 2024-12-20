@@ -2,7 +2,7 @@
     width: 100vw; 
     /* height: 100vh; */
     background-color: rgba(0,0,0,0.6);
-   /* padding: 0.5em; */
+  
     color: var(--secondary);
     font-family: moul, serif;
 }
@@ -10,6 +10,10 @@
 .mobile span, .mobile svg {
     font-size: 3em;
     
+}
+
+.mobile span {
+  padding-left: 0.25em;
 }
 .mobile .header {
   display: flex;
@@ -81,6 +85,7 @@ cursor: pointer;
   width: 100vw;
 }
   .mobile footer p {
+    padding: 0.25em;
     font-family: ropa, sans-serif;
     font-size: 16px;
     color: var(--secondary);

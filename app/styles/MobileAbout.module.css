@@ -1,6 +1,6 @@
 .about {
   background-color: rgba(0, 0, 0, 1);
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .about .back {
@@ -23,7 +23,7 @@
 
 
 
-.about img {
+/* .about img {
     position: absolute;
     top: 0;
     height: 100vh;
@@ -31,7 +31,7 @@
     object-fit: cover;
     filter: grayscale(100%);
     z-index: -100;
-  }
+  } */
 
   .about .link {
     color: var(--secondary);
