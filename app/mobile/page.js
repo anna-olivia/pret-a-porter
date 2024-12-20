@@ -22,18 +22,15 @@ const About = () => {
             <p>My family and I loved that movie – we could quote it forward and backwards.</p>
             <br/>
             <p>Anyway, a few years later, the web became accessible to the public, and little did I know it would end up being such a big part of my life. </p>
-            <figure className={styles.figure1}>
-          <Image
-            src="/assets/pics/IMG_5883.jpeg"
-            alt="me"
-            className="me"
-            width={800}
-            height={900}
-            priority
-          />
-        </figure>
+            <p>
+            <Link href="/me" ><IoArrowForward className={styles.link} />
+             <h2>that's me</h2>
+        
 
-        <figure className={styles.figure2}>
+              </Link>
+              </p>
+              <br/>
+            {/* <figure className={styles.figure1}>
           <Image
             src="/assets/pics/IMG_5883.jpeg"
             alt="me"
@@ -42,7 +39,18 @@ const About = () => {
             height={900}
             priority
           />
-        </figure>
+        </figure> */}
+
+        {/* <figure className={styles.figure2}>
+          <Image
+            src="/assets/pics/IMG_5883.jpeg"
+            alt="me"
+            className="me"
+            width={800}
+            height={900}
+            priority
+          />
+        </figure> */}
             <p>
               The real deep dive started when I went to the Chaos Communication Congress in Hamburg.</p>
               <p> 

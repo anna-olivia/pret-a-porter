@@ -1,0 +1,42 @@
+
+.me img {
+    height: 100vh;
+    object-fit: cover;
+    filter: grayscale(100%);
+}
+
+.wrapMe .link {
+    position: absolute;
+    top: 0;
+    padding: 0.5em;
+    color: var(--secondary);
+    display: inline;
+    z-index: 100;
+}
+
+.wrapMe .link svg {
+    display: inline;
+    font-size: 2em;
+}
+.wrapMe .link span {
+    display: inline-block;
+    width: 200px;
+    color: white;
+    position: absolute;
+    top: 0;
+    padding-top: 0.25em;
+    font-size: 1.5em;
+}
+
+.wrapMe h2 {
+    color: var(--secondary);
+    position: absolute;
+    bottom: 5%;
+    width: 100vw;
+    padding-right: 0.25em;
+    text-align: right;
+    font-size: 2em;
+}
+.wrapMe h2 span {
+    font-weight: bolder;
+}

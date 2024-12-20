@@ -50,12 +50,17 @@ margin-bottom: 5%;
   
   }
 
-  .about .link {
+  .about .link, .about a h2 {
     color: var(--secondary);
     display: inline;
     font-size: 2em;
     transform: translatex(-5px);
     
+  }
+
+  .about a h2 {
+font-size: 1em;
+
   }
 
   
