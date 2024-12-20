@@ -20,9 +20,9 @@ export default function Mobile() {
     <div className={styles.mobile}>
       
 
-
-    <span>Creating </span>
-    <IoMenuOutline onClick={toggleMenu}/>
+<div className={styles.header}>  <span>Creating </span>
+<IoMenuOutline onClick={toggleMenu}/> </div>
+   
     <nav className={`${styles.inhalt} ${isMenuOpen ? styles.open : ''}`}>
         <IoClose className={styles.icon} onClick={toggleMenu}/>
         <ul>

@@ -41,8 +41,8 @@
 }
 .about .icon {
   position: absolute;
-  top: 5%;
-  left: 3.5%;
+  /* top: 5%;
+  left: 3.5%; */
   font-size: 80px;
   cursor: pointer;
   z-index: 100;
@@ -55,8 +55,8 @@
   font-size: 6em;
   text-transform: uppercase;
   position: absolute;
-  top: 90px;
-
+  /* top: 90px; */
+padding-top: 0.5em;
   z-index: 10;
   line-height: 1em;
   text-align: center;
