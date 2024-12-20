@@ -64,7 +64,7 @@ export default function Mobile() {
       </nav>
      <Draw/>
     <span>web</span>
-    <footer>
+    {/* <footer>
     <p>For better user experience  visit Site on a larger device</p>
     <div className={styles.links}>
         <a
@@ -89,7 +89,7 @@ export default function Mobile() {
       <p className={styles.author}>
         ./code and ./design © {new Date().getFullYear()}    – anna-olivia lebert-wietholtz
       </p>
-      </footer>
+      </footer> */}
     </div>
   )
 }

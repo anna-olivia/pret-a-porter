@@ -1,8 +1,8 @@
 .mobile {
     width: 100vw; 
-    /* height: 100vh; */
-    background-color: rgba(0,0,0,0.6);
-  
+    height: 100vh;
+    /* background-color: rgba(0,0,0,0.6); */
+   background-color: rgba(0,0,0); 
     color: var(--secondary);
     font-family: moul, serif;
 }
