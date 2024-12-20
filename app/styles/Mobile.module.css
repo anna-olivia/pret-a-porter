@@ -7,7 +7,11 @@
     font-family: moul, serif;
 }
 
-.mobile span, .mobile svg {
+.mobile .web {
+  font-size: 8em;
+}
+
+.mobile svg, .mobile span {
     font-size: 3em;
     
 }
@@ -26,9 +30,9 @@ margin-top: -0.25em; */
 cursor: pointer;
 
 }
-.mobile span:nth-of-type(2) {
+/* .mobile span:nth-of-type(2) {
     font-size: 8em;
-}
+} */
 
 .inhalt {
     visibility: hidden;

@@ -63,7 +63,7 @@ export default function Mobile() {
         </ul>
       </nav>
      <Draw/>
-    <span>web</span>
+    <span className={styles.web}>web</span>
     {/* <footer>
     <p>For better user experience  visit Site on a larger device</p>
     <div className={styles.links}>
