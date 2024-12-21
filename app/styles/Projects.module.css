@@ -13,10 +13,40 @@ gap: 5rem;
 }
 
 .projects .project {
-    background-color: var(--secondary);
+    background-color: black;
     width: 250px;
     height: 250px;
+    border-radius: 50%;
+    border: 2px solid white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  
 }
+
+.projects .project:active, .projects .project:hover {
+   transform: scale(1.1);
+  
+}
+
+
+.projects .skills {
+    background-color: var(--secondary);    
+    border-radius: 50%;
+    /* border: 2px solid white; */
+color: white;
+text-align: right;
+
+
+}
+
+.projects h2 {
+    /* border: 1px solid green; */
+    /* width: 50%; */
+    padding-top: 25%;
+}
+
+
 .projects .link {
     color: var(--secondary);
     display: inline;
