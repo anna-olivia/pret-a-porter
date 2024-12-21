@@ -14,10 +14,11 @@
 }
 
 :root {
- --background: #4e9ba3;
+background-color: black;
+color: white;
   --foreground: #ffffff; 
   --secondary: #e99e96;
-  --tertiary: #804ea3;
+
   --heading: moul;
   --paragraph: ropa;
 }

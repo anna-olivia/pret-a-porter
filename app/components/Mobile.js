@@ -33,7 +33,7 @@ export default function Mobile() {
             </li>
             <li>
                 <Link href="/projects">
-                projects
+                projects & skills
                 </Link>
             </li>
             <li>
