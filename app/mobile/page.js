@@ -8,8 +8,8 @@ const About = () => {
     <>
      
       <div className={`glass ${styles.about}`}>
-      <Link href="/" className={styles.back}>
-          <IoClose  />
+      <Link href="/">
+          <IoClose className={styles.back} />
         </Link>
     
      
