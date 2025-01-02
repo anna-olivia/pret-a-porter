@@ -14,7 +14,7 @@ export default function Hero() {
   };
 
   return (
-    <div className={styles.mobile}>
+    <div className={styles.wrapper}>
       <div className={styles.header}>
         <span>Creating </span>
         <IoMenu onClick={toggleMenu} className={styles.icon}/>

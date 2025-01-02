@@ -1,28 +1,27 @@
-.mobile {
+.wrapper {
   width: 100vw;
   height: 100vh;
   background-color: var(--background);
   color: var(--primary);
   font-family: moul, serif;
-  padding: 0.625em;
+  padding: 5% 2.5%;
 }
 
-.mobile .icon,
-.mobile span {
+.wrapper .icon,
+.wrapper span {
   font-size: 3em;
-  
 }
 
-.mobile .asym {
+.wrapper .asym {
   padding-left: 0.5em;
   font-size: 8em;
 }
 
-.mobile .header {
+.wrapper .header {
   display: flex;
   justify-content: space-between;
 }
-.mobile .icon {
+.wrapper .icon {
   cursor: pointer;
   margin-top: 0.25em;
 }
@@ -39,7 +38,7 @@
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.mobile > .inhalt.open {
+.wrapper > .inhalt.open {
   visibility: visible;
   z-index: 100;
 }
@@ -65,65 +64,78 @@
   font-size: 0.75em;
 }
 
-.mobile nav + div {
+.wrapper .inhalt + div {
   height: 60%;
 }
 
-.mobile .asym + div {
-  border: 1px solid green;
-display: none;
+.wrapper .asym + div {
+  display: none;
 }
 
 @media (min-width: 640px) {
-  .mobile {
-    padding: 1.5em;
+  .header > span:nth-of-type(1) {
+    font-size: 5.5em;
+    text-transform: uppercase;
   }
-  .mobile nav + div {
-    height: 40%;
-    /* margin-top: 20%; */
-    margin-left: 20%;
-    /* border: 1px solid green; */
-  }
-
-  .mobile .asym {
+  .wrapper .header > svg {
     display: none;
   }
-  .mobile .asym + div  {
-    border: 1px solid green;
-  display: block;
-  }
-  .mobile div:last-of-type span {
-    /* border: 1px solid green; */
-    position: absolute;
 
-    left: 50%;
-    font-size: 8em;
+  .wrapper .inhalt {
+    display: none;
+  } 
+
+  .wrapper .inhalt + div {
+    margin-top: -5%;
+    height: 30%;
+    margin-left: 50%;
+   
+  }
+
+  .wrapper .asym {
+    display: none;
+  }
+  .wrapper .asym + div {
+    display: block;
+  }
+  .wrapper div:last-of-type span {
+    margin-left: 30%;
+    font-size: 5.5em;
+    text-transform: uppercase;
   }
 }
 
 @media (min-width: 1024px) {
-.mobile .header > svg {
-  border: 1px solid green;
-  display: none;
-}
-
-
-
-  .mobile nav + div {
-    margin-top: -10%;
-    left: 35%;
-    height: 50%;
+  .header > span:nth-of-type(1) {
+    font-size: 7.5em;
   }
-  .mobile div:last-of-type span {
-   left: 45%;
-   font-size: 8em;
+  .wrapper div:last-of-type span {
+    margin-left: 40%;
+    font-size: 7.5em;
+    
   }
-  
-.mobile span {
-  font-size: 8em;
-}
-  
+
+  .wrapper .inhalt + div {
+    margin-top: -15%;
+    height: 40%;
+    margin-left: 67.5%;
+   
+  }
 }
 
 @media (min-width: 1280px) {
+  .header > span:nth-of-type(1) {
+    font-size: 8em;
+  }
+  .wrapper div:last-of-type span {
+    margin-left: 40%;
+    font-size: 8em;
+    
+  }
+
+  .wrapper .inhalt + div {
+    margin-top: -15%;
+    margin-left: 65%;
+   
+  }
 }
