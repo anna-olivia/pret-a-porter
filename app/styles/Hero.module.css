@@ -66,7 +66,12 @@
 }
 
 .mobile nav + div {
-  height: 65%;
+  height: 60%;
+}
+
+.mobile .asym + div {
+  border: 1px solid green;
+display: none;
 }
 
 @media (min-width: 640px) {
@@ -83,11 +88,14 @@
   .mobile .asym {
     display: none;
   }
-
+  .mobile .asym + div  {
+    border: 1px solid green;
+  display: block;
+  }
   .mobile div:last-of-type span {
     /* border: 1px solid green; */
     position: absolute;
-bottom: 0;
+
     left: 50%;
     font-size: 8em;
   }
@@ -98,6 +106,8 @@ bottom: 0;
   border: 1px solid green;
   display: none;
 }
+
+
 
   .mobile nav + div {
     margin-top: -10%;
