@@ -1,21 +1,20 @@
 .impressum {    
   background-color: rgba(0,0,0,0.6);
-
   display: block;
   font-size: 1em;
   padding: 5% 5%;
 
+
 }
 .impressum .back {
-  color: var(--secondary);
+  color: var(--primary);
   display: inline;
-  font-size: 2em;
-  transform: translatex(-5px);
-  
+  font-size: 3em;
+ 
 }
 
 .impressum .link {
-  color: var(--secondary);
+  color: var(--primary);
   display: inline;
   font-size: 2em;
   transform: translatex(-5px);
@@ -24,9 +23,9 @@
 
 
 .impressum h2 {
-  color: var(--secondary);
-  /* margin-top: 5%; */
-  padding-top: 2%;
+  color: var(--primary);
+  padding: 5% 0 2.5%;
+  line-height: 1.2em;
 
 }
 
@@ -36,38 +35,7 @@
 
 
 
-@media (min-width: 1024px) {
-.impressum {    
-   
-    display: flex;
-    font-size: 20px;
-    padding: 60px 120px 80px;
-    gap: 40px;
-}
-.impressum .back {
-  display: none; 
-}
 
-.impressum .link {
-  color: var(--secondary);
-  display: inline;
-  font-size: 2em;
-  transform: translatex(-5px);
-  transition: transform 0.5s ease-in-out;
-}
-  
-  .impressum .link:hover {
-    transform: translatex(-10px);
-  }
-
-.impressum h2 {
-    color: var(--secondary);
-    /* margin-top: 5%; */
-    padding-top: 2%;
-
-}
-
-}
 
 
 

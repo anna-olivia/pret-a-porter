@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import Link from "next/link";
 import { IoArrowForward, IoClose } from "react-icons/io5";
 import styles from "../styles/MobileAbout.module.css";
@@ -30,27 +30,7 @@ const About = () => {
               </Link>
               </p>
               <br/>
-            {/* <figure className={styles.figure1}>
-          <Image
-            src="/assets/pics/IMG_5883.jpeg"
-            alt="me"
-            className="me"
-            width={800}
-            height={900}
-            priority
-          />
-        </figure> */}
-
-        {/* <figure className={styles.figure2}>
-          <Image
-            src="/assets/pics/IMG_5883.jpeg"
-            alt="me"
-            className="me"
-            width={800}
-            height={900}
-            priority
-          />
-        </figure> */}
+           
             <p>
               The real deep dive started when I went to the Chaos Communication Congress in Hamburg.</p>
               <p> 
@@ -62,16 +42,12 @@ const About = () => {
             <p>
 Since February 2022, I've been teaching web development with the MERN stack, helping people from non-tech backgrounds navigate their way into the field. I also coach my colleagues, blending teaching and design techniques to make the web more accessible for learners. </p><p>And when I'm not doing that, you'll probably find me experimenting with digital illustrations and animations or creating giant paintings on flattened cardboard boxes.
             </p>
-            <br/>
-            <Link href="/" ><IoArrowForward className={styles.link} />
-             back home
+        
+            <Link href="/projects" ><IoArrowForward className={styles.link} />
+            <h2>  projects & skills</h2>
+           
               </Link>
-              <br/>
-              <a   href="https://github.com/anna-olivia"
-          target="_blank"
-          rel="noopener noreferrer"><IoArrowForward className={styles.link} />
-              github
-              </a>
+            
 
             </div>
            

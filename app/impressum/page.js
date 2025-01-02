@@ -25,7 +25,8 @@ const Impressum = () => {
           <h2>Hosting</h2>
           <p>
             Diese Website wird von Vercel Inc.340 S Lemon Ave #4133Walnut, CA
-            91789, USA gehostet. Der Anbieter erhebt und speichert automatisch
+            91789, USA gehostet. <br/>
+            Der Anbieter erhebt und speichert automatisch
             Informationen in sogenannten Server-Logfiles, die Ihr Browser
             automatisch übermittelt. Dies sind: - Browsertyp und -version -
             Verwendetes Betriebssystem - Referrer-URL - Hostname des
@@ -33,10 +34,10 @@ const Impressum = () => {
             Daten werden nur zu technischen Zwecken genutzt und nicht mit
             anderen Datenquellen zusammengeführt.
           </p>
-          <br/>
+          {/* <br/>
           <Link href="/">
           <IoArrowBack className={styles.link} />back home
-        </Link>
+        </Link> */}
         </div>
         <div>
           <h2>Urheberrechte</h2>
