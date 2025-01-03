@@ -90,6 +90,12 @@ height: 100vh;
   color: var(--primary);
   padding: 0.5em;
 }
+.about .content nav+p {
+  /* border: 1px solid green; */
+  position: absolute;
+  bottom: 1em;
+  left: 1em;
+}
 
 .box {
   position: absolute;
