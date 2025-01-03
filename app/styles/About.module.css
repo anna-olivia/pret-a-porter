@@ -14,13 +14,13 @@
   background-repeat: no-repeat;
   text-shadow: 0 1px rgba(0, 0, 0, 0.2);
   padding: 2.5% 2.5%;
-  height: 100vh;
 
 }
 
 .about .back {
   color: var(--primary);
   font-size: 3em;
+  cursor: pointer;
  
 }
 
@@ -55,4 +55,46 @@
   
 }
 
+.about .content {
+  margin-top: 2em;
+  text-align: justify;
+  width: 80%;
+}
+.about .content > h2 {
+  font-size: 6em;
+  /* border: 1px solid green; */
+  color: var(--primary);
+  font-size: 3em;
+  text-transform: uppercase;
+  position: absolute;
+  top: 0.5em;
+  padding-left: 0.25em;
+  z-index: 10;
+  line-height: 1em;
+}
+.about figure {
+  position: absolute;
+  top: 0;
+  left: 75%;
+  bottom: 0;
+}
 
+.about img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  filter: grayscale(100%);
+}
+
+.about ul {
+  list-style: none;
+  color: var(--primary);
+  padding: 0.5em;
+}
+
+.box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  
+}
