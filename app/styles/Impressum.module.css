@@ -13,7 +13,6 @@
   background-size: 200% 150%;
   background-repeat: no-repeat;
   text-shadow: 0 1px rgba(0, 0, 0, 0.2);
-  /* font-size: 1em; */
   padding: 2.5% 2.5%;
 }
 .impressum .back {
@@ -23,16 +22,17 @@
 }
 
 .impressum .back svg {
-  margin-top: 0.25em;;
+  margin-top: 0.5em;;
 }
 
 .impressum > div {
-  padding: 5% 5%;
+  padding: 2.5% 5%;
 }
 .impressum h2 {
   color: var(--primary);
   padding: 5% 0 2.5%;
   line-height: 1.2em;
+  font-size: 1rem;
 }
 
 .impressum address {

@@ -1,6 +1,6 @@
 .about {
   position: relative;
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(40px);
   background-image: linear-gradient(
       135deg,
@@ -9,38 +9,49 @@
       transparent 100%
     ),
     linear-gradient(100deg, rgba(255, 255, 255, 0.1) 25%, transparent 25%);
-
   box-shadow: 0 0 1px rgba(255, 255, 255, 0.1), inset 0 0 2px rgba(0, 0, 0, 0.5);
-
   background-size: 200% 150%;
   background-repeat: no-repeat;
-
   text-shadow: 0 1px rgba(0, 0, 0, 0.2);
+  padding: 2.5% 2.5%;
+
 }
 
 .about .back {
   color: var(--primary);
   font-size: 3em;
-  margin: 0.5em 0.25em;
+ 
 }
 
-.about .text {
-  padding: 2em 5%;
+.about .back svg {
+  margin-top: 0.5em;
 }
 
-.about h1 {
+.about > div {
+  padding: 2.5% 5%;
+}
+
+.about h2 {
   color: var(--primary);
-  font-size: 1.5em;
-  margin-top: -2em;
+  padding: 5% 0 2.5%;
+  line-height: 1.2em;
+  font-size: 1.2rem;
+  
 }
 
-.about .link,
-.about a h2 {
-  color: var(--primary);
-  display: inline;
-  transform: translateX(-5px);
+.about .link {
+ color: var(--primary);
+ padding: 5%;
+ display: flex;
+ align-items: center;
+
 }
 
-.about a h2 {
-  font-size: 1em;
+.about .link svg {
+
+  font-size: 1.25em;
+  margin-right: 0.25em;
+  
 }
+
+

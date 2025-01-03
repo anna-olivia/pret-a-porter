@@ -3,15 +3,9 @@
 }
 
 @media (min-width: 640px) {
-  .responsive footer {
+  .responsive {
     display: block;
-    background-color: var(--foreground);
-    color: var(--primary)
+   
   }
 
-  .responsive footer.wrapper {
-
-    background-color: var(--foreground);
-    color: var(--primary)
-  }
 }

@@ -4,9 +4,9 @@ import { PiMouseScrollThin } from "react-icons/pi";
 
 const Footer = () => {
   return (
-    <footer className={`glass ${styles.wrapper}`}>
+    <footer className={styles.wrapper}>
      <PiMouseScrollThin className={styles.icon}/>
-      <h1>contact me </h1>
+      <h2>contact me </h2>
       <div className={styles.links}>
       <Link href="/about">about </Link>
       <br/>
@@ -32,7 +32,6 @@ const Footer = () => {
       <p className={styles.author}> 
         ./code and ./design © {new Date().getFullYear()}    – anna-olivia lebert-wietholtz
       </p>
-      
     </footer>
   );
 };
