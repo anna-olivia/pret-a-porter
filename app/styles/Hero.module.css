@@ -112,36 +112,45 @@
 }
 
 @media (min-width: 1024px) {
-  .header > span:nth-of-type(1) {
-    font-size: 7.5em;
-  }
-  .wrapper div:last-of-type span {
-    margin-left: 40%;
-    font-size: 7.5em;
-    
-  }
 
-  .wrapper .inhalt + div {
-    margin-top: -15%;
-    height: 40%;
-    margin-left: 67.5%;
-   
+  .wrapper {
+    height: 80vh;
   }
+  
+    .header > span,  .wrapper > div:last-child span {
+      font-size: 6.5em;
+    }
+    
+    .wrapper .inhalt + div {
+      margin-top: -10%;
+      height: 30%;
+      margin-left: 55%;
+     
+    }
+    .wrapper > div:last-child {
+      margin-top: 15%;
+      margin-left: 35%;
+    }
+ 
 }
 
 @media (min-width: 1280px) {
-  .header > span:nth-of-type(1) {
-    font-size: 8em;
+  .wrapper {
+    height: 90vh;
   }
-  .wrapper div:last-of-type span {
-    margin-left: 40%;
-    font-size: 8em;
+  
+    .header > span,  .wrapper > div:last-child span {
+      font-size: 7.5em;
+    }
     
-  }
-
-  .wrapper .inhalt + div {
-    margin-top: -15%;
-    margin-left: 65%;
-   
-  }
+    .wrapper .inhalt + div {
+      margin-top: -15%;
+      height: 30%;
+      margin-left: 60%;
+     
+    }
+    .wrapper > div:last-child {
+      margin-top: 15%;
+      margin-left: 45%;
+    }
 }

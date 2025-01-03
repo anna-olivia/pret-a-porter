@@ -15,9 +15,7 @@
   text-decoration: underline;
 }
 
-@media (min-width: 640px) {
-  .wrapper {
-    height: 45vh;
-  }
-}
+/* @media (min-width: 640px) {
+  
+} */
 
