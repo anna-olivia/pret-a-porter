@@ -1,18 +1,17 @@
 import Link from "next/link";
 
 import styles from "../styles/Impressum.module.css";
-import Footer from "../components/Footer";
+
 import { IoClose} from "react-icons/io5";
 
 const Impressum = () => {
   return (
     <>
-      <div className={`glass ${styles.impressum}`}>
-      
-        <div>
+      <div className={styles.impressum}>
         <Link href="/" className={styles.back}>
           <IoClose  />
         </Link>
+        <div>
           <h2>Impressum</h2>
           <address>
             <p>
@@ -69,7 +68,7 @@ const Impressum = () => {
       
       </div>
 
-      <Footer />
+   
     </>
   );
 };
