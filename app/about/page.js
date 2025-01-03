@@ -11,7 +11,7 @@ const About = () => {
         </Link>
 
         <div>
-          <h2>What About Anna?</h2>
+          <h2>What About Anna ?</h2>
             <p>
               Remember the movie <span>What About Bob?</span> with Bill Murray
               back in 1991?

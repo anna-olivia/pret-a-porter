@@ -21,6 +21,7 @@ const Impressum = () => {
             <p>12435 Berlin</p>
             <p>Kontakt: a.wietholtz(at)posteo.de</p>
           </address>
+          <br/>
           <h2>Hosting</h2>
           <p>
             Diese Website wird von Vercel Inc.340 S Lemon Ave #4133Walnut, CA
@@ -34,8 +35,7 @@ const Impressum = () => {
             anderen Datenquellen zusammengeführt.
           </p>
      
-        </div>
-        <div>
+        <br/>
           <h2>Urheberrechte</h2>
           <p>
             Die durch die Seitenbetreiber erstellten Inhalte und Werke auf
@@ -57,14 +57,14 @@ const Impressum = () => {
             Schriftarten, die lokal eingebunden wurden. Es werden keine Daten an
             Dritte weitergegeben.
           </p>
-
+<br/>
           <h2>Verwendung von Schriftarten</h2>
           <p>
             Diese Website verwendet Schriftarten, die lokal eingebunden wurden.
             Es werden keine Daten an Dritte weitergegeben.
           </p>
 
-        </div>
+          </div>
       
       </div>
 

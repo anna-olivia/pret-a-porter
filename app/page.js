@@ -8,8 +8,6 @@ export default function Home() {
       <Hero />
       <div className={styles.responsive}>
         <About/> 
-
-        {/* <Canvas /> */}
       </div>
     </>
   );
