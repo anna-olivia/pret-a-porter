@@ -2,7 +2,7 @@ import Link from "next/link";
 
 import styles from "../styles/Impressum.module.css";
 import Footer from "../components/Footer";
-import { IoClose, IoArrowBack } from "react-icons/io5";
+import { IoClose} from "react-icons/io5";
 
 const Impressum = () => {
   return (
@@ -34,10 +34,7 @@ const Impressum = () => {
             Daten werden nur zu technischen Zwecken genutzt und nicht mit
             anderen Datenquellen zusammengeführt.
           </p>
-          {/* <br/>
-          <Link href="/">
-          <IoArrowBack className={styles.link} />back home
-        </Link> */}
+     
         </div>
         <div>
           <h2>Urheberrechte</h2>

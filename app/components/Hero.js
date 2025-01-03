@@ -23,7 +23,7 @@ export default function Hero() {
         <IoClose className={styles.icon} onClick={toggleMenu} />
         <ul>
           <li>
-            <Link href="/mobile">about</Link>
+            <Link href="/about">about</Link>
           </li>
           <li>
                 <Link href="/projects">
