@@ -1,6 +1,8 @@
+"use client";
+import React, {useState} from "react";
 import Link from "next/link";
 import styles from '../styles/Projects.module.css';
-import { IoArrowBack } from "react-icons/io5";
+import { IoArrowBack, IoInformationCircleOutline, IoClose } from "react-icons/io5";
 
 const Projects = ()=> {
 const links = [
@@ -11,17 +13,31 @@ const links = [
     {href:  "https://github.com/anna-olivia", skill: "175px", text: "react" },
     {href:  "https://github.com/anna-olivia", skill: "150px", text: "next" },
     {href:  "https://github.com/anna-olivia", skill: "150px", text: "node.js" },
-    {href:  "https://github.com/anna-olivia", skill: "100px", text: "typescript" },
+    {href:  "https://github.com/anna-olivia/play-type/tree/master", skill: "100px", text: "typescript" },
     {href:  "https://github.com/anna-olivia", skill: "100px", text: "php" },
     
 ]
+const [isInfoOpen, setIsInfoOpen] = useState(false);
+
+const toggleInfo = () => {
+  setIsInfoOpen(!isInfoOpen);
+};
 
 
     return (
         <div className={styles.projects}>
-        <Link href="/" ><IoArrowBack className={styles.link} />
+<div className={styles.header}>
+<Link href="/" ><IoArrowBack className={styles.link} />
               </Link>
-
+              <IoInformationCircleOutline onClick={toggleInfo} className={styles.info}/>
+             
+</div>
+<div className={`${styles.explain} ${isInfoOpen ? styles.open : ""}`}>
+<IoClose className={styles.icon} onClick={toggleInfo} />
+<p>This is a little sneak peak of some of my projects.</p>
+<p> I chose to visualise the level of my skills in each language with a growing inner circle. The larger the pinkish circle, the more confident I am working with this language.</p>
+<p> So far, I only categorize my skills as beginner, intermediate, and advanced. In the future, I will refine it a bit.</p>
+</div>
               <div className={styles.gallery}>
           {links.map((link, index) => 
           (<a

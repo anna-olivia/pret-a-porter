@@ -17,12 +17,8 @@ const Box = () => {
                 
       
             }}
-            style={{ position:" absolute", top: "400px",left: "550px", width: 600,
-              height: 150, 
-             
-              }}
         >
-        <h1>web</h1>
+        <span>web</span>
         </motion.div>
         </>
     )

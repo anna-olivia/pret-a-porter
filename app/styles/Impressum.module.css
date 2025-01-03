@@ -1,75 +1,54 @@
-.impressum {    
-  background-color: rgba(0,0,0,0.6);
-
-  display: block;
-  font-size: 1em;
-  padding: 5% 5%;
-
+.impressum {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(40px);
+  background-image: linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 0.3),
+      0,
+      transparent 100%
+    ),
+    linear-gradient(100deg, rgba(255, 255, 255, 0.1) 25%, transparent 25%);
+  box-shadow: 0 0 1px rgba(255, 255, 255, 0.1), inset 0 0 2px rgba(0, 0, 0, 0.5);
+  background-size: 200% 150%;
+  background-repeat: no-repeat;
+  text-shadow: 0 1px rgba(0, 0, 0, 0.2);
+  padding: 2.5% 2.5%;
+  height: 100vh;
+ 
 }
 .impressum .back {
-  color: var(--secondary);
-  display: inline;
-  font-size: 2em;
-  transform: translatex(-5px);
-  
+  color: var(--primary);
+  font-size: 3em;
+
 }
 
-.impressum .link {
-  color: var(--secondary);
-  display: inline;
-  font-size: 2em;
-  transform: translatex(-5px);
-  transition: transform 0.5s ease-in-out;
+.impressum .back svg {
+  margin-top: 0.5em;;
 }
 
-
+.impressum > div {
+  padding: 2.5% 5%;
+}
 .impressum h2 {
-  color: var(--secondary);
-  /* margin-top: 5%; */
-  padding-top: 2%;
-
+  color: var(--primary);
+  padding: 5% 0 2.5%;
+  line-height: 1.2em;
+  font-size: 1rem;
 }
 
 .impressum address {
   font-style: normal;
 }
 
-
-
-@media (min-width: 1024px) {
-.impressum {    
-   
-    display: flex;
-    font-size: 20px;
-    padding: 60px 120px 80px;
-    gap: 40px;
-}
-.impressum .back {
-  display: none; 
-}
-
-.impressum .link {
-  color: var(--secondary);
-  display: inline;
-  font-size: 2em;
-  transform: translatex(-5px);
-  transition: transform 0.5s ease-in-out;
-}
-  
-  .impressum .link:hover {
-    transform: translatex(-10px);
+@media (min-width: 640px) {
+  .impressum > div {
+    padding: 0 5%;
   }
-
-.impressum h2 {
-    color: var(--secondary);
-    /* margin-top: 5%; */
-    padding-top: 2%;
-
+  .impressum h2 {
+    color: var(--primary);
+    padding: 2.5% 0 2.5%;
+    line-height: 1.2em;
+    font-size: 1rem;
+  }
 }
-
-}
-
-
-
-
-

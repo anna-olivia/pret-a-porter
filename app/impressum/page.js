@@ -1,18 +1,17 @@
 import Link from "next/link";
 
 import styles from "../styles/Impressum.module.css";
-import Footer from "../components/Footer";
-import { IoClose, IoArrowBack } from "react-icons/io5";
+
+import { IoClose} from "react-icons/io5";
 
 const Impressum = () => {
   return (
     <>
-      <div className={`glass ${styles.impressum}`}>
-      
-        <div>
+      <div className={styles.impressum}>
         <Link href="/" className={styles.back}>
           <IoClose  />
         </Link>
+        <div>
           <h2>Impressum</h2>
           <address>
             <p>
@@ -25,7 +24,8 @@ const Impressum = () => {
           <h2>Hosting</h2>
           <p>
             Diese Website wird von Vercel Inc.340 S Lemon Ave #4133Walnut, CA
-            91789, USA gehostet. Der Anbieter erhebt und speichert automatisch
+            91789, USA gehostet. <br/>
+            Der Anbieter erhebt und speichert automatisch
             Informationen in sogenannten Server-Logfiles, die Ihr Browser
             automatisch übermittelt. Dies sind: - Browsertyp und -version -
             Verwendetes Betriebssystem - Referrer-URL - Hostname des
@@ -33,10 +33,7 @@ const Impressum = () => {
             Daten werden nur zu technischen Zwecken genutzt und nicht mit
             anderen Datenquellen zusammengeführt.
           </p>
-          <br/>
-          <Link href="/">
-          <IoArrowBack className={styles.link} />back home
-        </Link>
+     
         </div>
         <div>
           <h2>Urheberrechte</h2>
@@ -71,7 +68,7 @@ const Impressum = () => {
       
       </div>
 
-      <Footer />
+   
     </>
   );
 };
