@@ -5,7 +5,7 @@
 @media (min-width: 640px) {
   .responsive {
     display: block;
-   height: 100vh;
+   height: 10vh;
   }
 
 }
