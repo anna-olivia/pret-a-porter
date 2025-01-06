@@ -24,7 +24,7 @@ const About = () => {
   };
 
   return (
-    <>
+    <div classname={styles.responsive}>
       <motion.div
         className={`${styles.box} ${isActive ? styles.active : ""}`}
         {...animationSettings}
@@ -130,7 +130,7 @@ const About = () => {
           </figure>
         </div>
       </motion.div>
-    </>
+    </div>
   );
 };
 export default About;
