@@ -114,6 +114,13 @@ z-index: 100;
   left: 0;  
 }
 
+@media(min-width: 640px) {
+.responsive {
+display: block;
+height: 100vh;
+}
+}
+
 @media (min-width: 1024px){
   .about .content {
     /* margin-top: 2em; */
