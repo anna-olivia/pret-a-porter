@@ -118,6 +118,7 @@ z-index: 100;
 .responsive {
 display: block;
 height: 100vh;
+overflow: hidden;
 }
 }
 
