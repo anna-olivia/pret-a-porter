@@ -6,6 +6,7 @@ import { IoArrowBack, IoInformationCircleOutline, IoClose } from "react-icons/io
 
 const Projects = ()=> {
 const links = [
+{href:  "https://github.com/anna-olivia", skill: "200px", text: "figma" },
     {href:  "https://github.com/anna-olivia", skill: "200px", text: "html5" },
     {href:  "https://github.com/anna-olivia", skill: "200px", text: "css3" },
     {href:  "https://github.com/anna-olivia", skill: "200px", text: "bootstrap" },
