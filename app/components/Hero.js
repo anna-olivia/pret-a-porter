@@ -41,7 +41,7 @@ export default function Hero() {
           </li>
           <li>
             <a
-              href="https://www.linkedin.com/in/anna-olivia-wietholtz-6373a41b8/"
+              href="https://www.linkedin.com/in/annalebertwietholtz/"
               target="_blank"
               rel="noopener noreferrer"
             >
