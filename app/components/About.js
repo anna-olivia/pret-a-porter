@@ -67,7 +67,7 @@ const About = () => {
             </p>
           
             <p>
-              Since February 2022, I've been teaching web development with the
+              Since February 2021, I've been teaching web development with the
               MERN stack, helping people from non-tech backgrounds navigate
               their way into the field. I also coach my colleagues, blending
               teaching and design techniques to make the web more accessible for
