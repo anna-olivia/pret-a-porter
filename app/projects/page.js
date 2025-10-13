@@ -13,6 +13,7 @@ const links = [
     {href:  "https://github.com/anna-olivia/e-my-ud-vite1", skill: "200px", text: "js" },
     {href:  "https://github.com/anna-olivia/invest-r-action", skill: "175px", text: "react" },
     {href:  "https://github.com/anna-olivia/basic-router", skill: "150px", text: "next" },
+     {href:  "https://github.com/anna-olivia/goOcesia", skill: "150px", text: "nuxt" },
     {href:  "https://github.com/anna-olivia/back-ground", skill: "150px", text: "node" },
     {href:  "https://github.com/anna-olivia/play-type/tree/master", skill: "100px", text: "typescript" },
 {href:  "https://github.com/anna-olivia/back-ground", skill: "100px", text: "express" },
